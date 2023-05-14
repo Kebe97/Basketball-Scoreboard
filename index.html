@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Basketball scoreboard</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+            <div class="home">
+                <h1>HOME</h1>
+                <div class="score" id="home-score">0</div>
+                <div class="buttons">
+                    <button onclick="match(homeScore, 1)">1</button>
+                    <button onclick="match(homeScore, 2)">2</button>
+                    <button onclick="match(homeScore, 3)">3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <div class="score" id="guest-score">0</div>
+                <div class="buttons">
+                    <button onclick="match(guestScore, 1)">1</button>
+                    <button onclick="match(guestScore, 2)">2</button>
+                    <button onclick="match(guestScore, 3)">3</button>
+                </div>
+        </div>
+        
+        <div>
+            <button onclick="reset()">RESET</button>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

@@ -1,16 +1,26 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: rgb(31, 28, 204);
     color: aliceblue;
     font-size: xx-large;
 }
 
+.first {
+    display: flex;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
 .score {
-    width: 500px;
-    height: 500px;
+    flex-basis: 500px;
+    min-width: 500px;
     background-color: rgb(39, 38, 38);
     border: 10px solid aliceblue;
     border-radius: 8px;
